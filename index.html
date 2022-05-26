@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/super-classes.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="assets/css/mobile.css">
+   <title>Morph Academy</title>
+</head>
+
+<body>
+
+   <div class="color-red"></div>
+   <!---header-and-banner-section-->
+   <div class="header-and-banner-con w-100 float-left position-relative">
+      <div class="header-and-banner-inner-con">
+         <header class="main-header">
+            <!--navbar-start-->
+            <div class="container pl-0 pr-0">
+               <div class="header-con">
+                  <nav class="navbar navbar-expand-lg navbar-light p-0">
+                     <a class="navbar-brand p-0" href="index.html">
+                        <img src="assets/image/logo-morph.png" alt="logo-img" class="img-fluid">
+                     </a>
+                     <button class="navbar-toggler p-0 collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                           <li class="nav-item active pl-0">
+                              <a class="nav-link p-0 is-active" href="index.html">Home<span
+                                    class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link p-0" href="#Courses">Courses</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link p-0" href="#about-con">About</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link p-0" href="#placements">Placements</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link p-0" href="#Testimonials">Testimonials</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link p-0" href="#Events">Events</a>
+                           </li>
+                        </ul>
+                        <div class="d-inline-block contact">
+                           <a href="#Contact">Contact</a>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+            <!--navbar-end-->
+         </header>
+         <section class="banner-main-con" id="home">
+            <div class="container pl-0 pr-0">
+               <!--banner-start-->
+               <div class="footer-social-icon banner-social-icon mb-0">
+                  <ul class="mb-0 list-unstyled">
+                     <li class="">
+                        <a href="https://www.behance.net/"><i
+                              class="fab fa-behance d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                     <li class="mt-3 mb-3">
+                        <a href="https://dribbble.com/"><i
+                              class="fab fa-dribbble d-flex align-items-center justify-content-center ml-0 mr-0 "></i></a>
+                     </li>
+                     <li class="">
+                        <a href="https://www.linkedin.com/"><i
+                              class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                  </ul>
+               </div>
+           
+            </div>
+
+            <div class="row red-line">
+               <div class="col-md-8 banner">
+                  <video autoplay muted loop id="myVideo">
+                     <source src="assets/image/video.mp4" type="video/mp4">
+                   
+                   </video>
+                   <div class="banner-caption">
+         
+                    <span>100% job oriented course in
+                     </span><br>
+                     <span>  3d animation and Film making  </span><br>
+                     <h2>Game Design | Visual Effects | AR & VR Courses | Metaverse</h2>
+                  </div>
+
+               </div>
+               <div class="col-md-4 col-sm-12 col-sx-12 position-on-banner p-0" id="form_div">
+                  <div class="enq-form">
+                     <div class="clearfix"></div>
+                     <div class="form-section">
+                        <div class="form_inner">
+                           <!--<h2>Admission Open</h2>-->
+                           <h2 class="ribbon">Apply Now Morph Academy</h2>
+                           <form action="form/form/contact.php" method="post" id="campaign_form" __bizdiag="725740564" __biza="WJ__">
+                              <div class="form-flex">
+                                 <div class="form_field">
+                                  
+
+                                    <input type="text" name="name" id="name" placeholder="Name" required="">
+                                    <span style="color: red; font-size: 12px;" id="name_error"></span>
+                                 </div>
+                                 <div class="form_field">
+                                    <input type="email" name="email" id="email" placeholder="Email" required="">
+                                    <span style="color: red; font-size: 12px;" id="email_error"></span>
+                                    <input type="hidden" name="formOTP" id="formOTP" value="0">
+                                 </div>
+                                 <div class="form_field">
+                                    <input id="phone_no" type="text" name="phone" placeholder="Mobile Number"
+                                       minlength="10" maxlength="10">
+                                       
+                                 
+                                 </div>
+                              </div>
+                              <div class="form-flex">
+                                 <div class="form_field">
+                                    <input name="city" id="city" required="" placeholder="Enter Your City">
+                                      
+                                    <span style="color: red; font-size: 12px;" id="campus_error"></span>
+                                 </div>
+                                 <div class="form_field">
+                                    <select name="state" id="state" required="">
+
+                                       <option value="-1">Select State</option>
+                                       <option value="Andaman And Nicobar">Andaman And Nicobar</option>
+                                       <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                       <option value="Assam">Assam</option>
+                                       <option value="Bihar">Bihar</option>
+                                       <option value="Chandigarh">Chandigarh</option>
+                                       <option value="Chhattisgarh">Chhattisgarh</option>
+                                       <option value="Delhi">Delhi</option>
+                                       <option value="Goa">Goa</option>
+                                       <option value="Gujarat">Gujarat</option>
+                                       <option value="Haryana">Haryana</option>
+                                       <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                       <option value="Jammu And Kashmir">Jammu And Kashmir</option>
+                                       <option value="Jharkhand">Jharkhand</option>
+                                       <option value="Karnataka">Karnataka</option>
+                                       <option value="Kerala">Kerala</option>
+                                       <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                       <option value="Maharashtra">Maharashtra</option>
+                                       <option value="Manipur">Manipur</option>
+                                       <option value="Meghalaya">Meghalaya</option>
+                                       <option value="Mizoram">Mizoram</option>
+                                       <option value="Nagaland">Nagaland</option>
+                                       <option value="Orissa">Orissa</option>
+                                       <option value="Punjab">Punjab</option>
+                                       <option value="Rajasthan">Rajasthan</option>
+                                       <option value="Sikkim">Sikkim</option>
+                                       <option value="Tamil Nadu">Tamil Nadu</option>
+                                       <option value="Telangana">Telangana</option>
+                                       <option value="Tripura">Tripura</option>
+                                       <option value="Uttarakhand">Uttarakhand</option>
+                                       <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                       <option value="West Bengal">West Bengal</option>
+                                       <option value="Abroad">Abroad</option>
+                                    </select>
+                                    <span style="color: red; font-size: 12px;" id="state_error"></span>
+                                 </div>
+                                
+                              </div>
+                              <div class="t-c">
+                                 <label class="tc">I have read all the <a target="_blank"
+                                       href="#">terms
+                                       &amp; conditions</a>
+                                    <input checked="" type="checkbox" required="">
+                                    <span class="checkmark"></span> </label>
+                              </div>
+                              <div class="form_field" style="display:none;">
+                                 <select name="intersted" id="intersted">
+                                    <option value="UGFDFDT-UG_FD" selected="">Fashion Design &amp; Technology</option>
+                                 </select>
+                              </div>
+                              <input name="course" value="1" id="course" type="hidden">
+                              <div class="form_field_submit">
+                                  
+                                 <input name="submit" type="submit" id="campaign_form_submit" value="Submit">
+                              </div>
+                           </form>
+                        </div>
+                        <!--end form_inner-->
+                        <div class="clearfix"></div>
+                     </div>
+                  </div>
+                  <!--end col-md-6-->
+
+               </div>
+            </div>
+
+            <!--Form section ends  -->
+            <!--otp section Start  -->
+            <div class="col-lg-6 col-md-8 col-sm-12 col-12 position-on-banner" style="display: none;" id="otp_div">
+               <div class="enq-form">
+                  <div class="clearfix"></div>
+                  <div class="form-section">
+                     <div class="form_inner">
+                        <h2>Admission Open</h2>
+                        <div class="opt-tag-line d-flex justify-content-between align-items-center">
+                           <div class="icon"><img src="images/opt-icon.svg"></div>
+                           <div class="text">An OTP has been sent to your phone. Please fill this for verification!
+                           </div>
+                        </div>
+                        <form action="" method="post" __bizdiag="-1842720091" __biza="WJ__">
+                           <input type="hidden" class="" name="sent-otp" id="sent-otp">
+                           <div class="form-flex">
+                              <div class="form_field width-100">
+                                 <input type="text" class="" name="otp" id="otp" placeholder="Enter your OTP here">
+                                 <span style="color: red; font-size: 12px;" id="otp_error"></span>
+                              </div>
+                           </div>
+                           <div class="form_field_submit">
+                              <input name="submit" type="button" value="Verify OTP" id="otp_submit">
+                              <input name="submit" type="button" value="Resend OTP" id="resend_submit"
+                                 onclick="send_otp();">
+                           </div>
+                        </form>
+                     </div>
+                     <!--end form_inner-->
+                     <div class="clearfix"></div>
+                  </div>
+               </div>
+               <!--end col-md-6-->
+            </div>
+            <!--OPT section ends  -->
+
+      </div>
+
+      </section>
+
+      <!---header-and-banner-section-->
+      <!-- service section -->
+      <section class="w-100 float-left service-con padding-top padding-bottom position-relative"id="Courses" >
+         <div class="container" >
+            <div class="service-inner-con position-relative">
+               <div class="generic-title text-center">
+                  <h6>Call : 
+                     +919815006369</h6>
+                  <h2 class="mb-0">100% Job Oriented profession courses
+                  </h2>
+               </div>
+               <div class="service-box wow fadeInUp">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/film-making-course.png" alt="service-icon" class="img-courses">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Film making & Direction course</h4>
+                              <p>Students learn hands-on Experience in writing, directing, shooting, and editing
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/animation-and-visual-effects-course-lp.png" alt="service-icon" class="img-courses">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>3d Animation and Visual effects</h4>
+                              <p>Learn to create 3D art, animation, and visual effects for use in film, TV, games, and virtual reality at Morph
+                              </p>
+                             
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mb-0">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item">
+                           <figure class="mb-0">
+                              <img src="assets/image/photoraphy-course-in-chandigarh.png" alt="service-icon" class="img-courses">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>Photography and Cinematography</h4>
+                              <p>we offer photography for Weddings, News agencies, electronic media, modeling agencies, wildlife photography, etc.
+                              </p>
+                            
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="service-box-item mb-0">
+                           <figure class="mb-0">
+                              <img src="assets/image/game-designs-course-in-chandigarh.png" alt="service-icon" class="img-courses">
+                           </figure>
+                           <div class="service-box-item-content">
+                              <h4>
+                                 Game Designs with AR/VR</h4>
+                              <p>Gaming/AR-VR. Morph Animation offers career-building courses in game design and development for jobs and own game studio. 
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- service section -->
+      <!-- skill section -->
+      <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+         <div class="container">
+            <div class="skill-inner-con position-relative">
+               <div class="row">
+                  <div class="col-lg-6 order-lg-0 order-2">
+                     <div class="skill-left-con text-center wow slideInLeft">
+                        <div class="row service-skill-sttaf-con">
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                 <img src="assets/image/animation-and-film-making-coruses-by-students1.png" alt="service-icon" class="img-courses3">
+                                 <div class="service-skill-sttaf-item-heading">
+                                   
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                
+                                 <img src="assets/image/animation-and-film-making-coruses-by-students.png" alt="service-icon" class="img-courses3">
+                                 <div class="service-skill-sttaf-item-heading">
+                                  
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row service-skill-sttaf-con">
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                              <div class="skill-left-item-con">
+                                 <img src="assets/image/animation-and-film-making-coruses-by-students2.png" alt="service-icon" class="img-courses3">
+                                 <div class="service-skill-sttaf-item-heading">
+                           
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                              <div class="skill-left-item-con">
+
+                                 <img src="assets/image/animation-and-film-making-coruses-by-students3.png" alt="service-icon" class="img-courses3">
+                                 <div class="service-skill-sttaf-item-heading">
+                                  
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-center color-red">
+                     <div class="skill-right-con wow slideInRight">
+                        <h6>Morph Academy</h6>
+                        <h2>Join India’s Best Animation & Multimedia Academy  
+                        </h2>
+                        <p>Morph Academy’s teaching style has been created to simulate the real-world industry as closely as possible. Since 1999,
+ 
+                        </p>
+                        <p>
+                          Our Job oriented course delivers the industry-standard professional skills you need to start a rewarding career in animation, film, Video Editing, Photography course, NFT Design, Metaverse course, sound,  game, and VR/AR design.
+Our Experts Student Showcase Projects.
+                        </p>
+                        <div class="generic-btn download-bnt">
+                           <a href="#" id="downloadImg" onclick="downloadImage()">Download Prospect</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+  
+<!-- PLACEMENT -->
+<div class="color-white" >
+      <div class="container" >
+         <div class="row" id="placements">
+            <div class="col-md-8"  >
+               <div data-v-f2b6376c="" class="placement--box">
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/google-logo-png-hd-11.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/Amazon-Logo.png" alt="Logo"></div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/snapdeal-large.png" alt="Logo"></div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/hcl1.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/colors-tv-logo.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="assets/image/flipkart-vector-png-flipkart-logo-01-jpg-2362.png" alt="Logo"></div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/amazon.png" alt="Logo"></div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/aromamagic.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/reliance-money.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/pepsi.png" alt="Logo"></div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/shopersstop.png" alt="Logo">
+                  </div>
+                  <div data-v-f2b6376c="" class="brand--icon"><img data-v-f2b6376c=""
+                        src="https://www.iwpacademy.com/public/images/home/placements/mothes-pride.png" alt="Logo">
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4" >
+               <div data-v-f2b6376c="" class="head--section">
+                  <h2 data-v-f2b6376c="" class="sub--headings">Top Placements</h2> <a data-v-f2b6376c=""
+                     href="https://Morphacademy.com/" class="bttn-main-link primary">
+                     View All Placements
+                     <svg data-v-f2b6376c="" version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 16 16">
+                        <path data-v-f2b6376c="" d="M1,8.2l0-0.4h11L12,6l3,2l-3,2l0-1.8H1z"></path>
+                     </svg></a>
+               </div>
+
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+<!-- slider -->
+<div class="red-color">
+<div class="container-fluid" id="Testimonials">
+   <div class="row">
+      <div class="col-md-12 mt-4">
+         <h3 class="text-center text-light">TESTIMONIALS AND STUDNET WORK</h3>
+      </div>
+
+      </div>
+      <div class="row">
+      <div class="col-md-4 sm-12 mt-4 mb-4">
+
+
+         <div section="video" class="">
+         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="size">
+            <img src="assets/image/studdent-testmonial.jpg"  class="img-fluid1"  style="cursor:pointer" />
+         </div>
+         <div style="display:none">
+            <iframe class="img-fluid1" src="https://www.youtube.com/embed/G9VPhKFWqjE?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+</div>
+</div>
+<div class="col-md-4 sm-12 mt-4 mb-4 ">
+       
+       <div section="video" class=" ">
+         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="size">
+            <img src="assets/image/studdent-testmonial1.jpg"   class="img-fluid1" style="cursor:pointer" />
+         </div>
+         <div style="display:none">
+            <iframe class="img-fluid1" src="https://www.youtube.com/embed/cIz2i5r9cW0?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+            
+       </div>
+
+       </div>
+       <div class="col-md-4 sm-12 mt-4 mb-4">
+       <div section="video" class="">
+         <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" class="size">
+            <img src="assets/image/studdent-testmonial2.jpg"   class="img-fluid1" style="cursor:pointer" />
+         </div>
+         <div style="display:none">
+            <iframe class="img-fluid1" src="https://www.youtube.com/embed/l6pCOFMhHmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+            
+       </div>
+            
+         
+      </div>
+   </div>
+</div>
+
+</div>
+      <!-- id="Events" section -->
+<div class="white"><div class="container" id="Events" >
+   <div class="row" >
+<div class="col-md-3 color-red p-0">
+   <h1 class="recent">Recent Events</h1>
+</div>
+<div class="col-md-3 p-0">
+   <img src="assets/image/moprh-events1.jpg" class="red-hovor">
+   <div class="overlay">
+  
+   </div>
+   <p class="color-black">Bhangra Show held at  Morph Academy.</p>
+</div>
+<div class="col-md-3  p-0">
+   <img src="assets/image/moprh-events2.jpg" class="red-hovor">
+   <div class="overlay">
+  
+   </div>
+
+   <p class="color-red text-white">Practical Learning and Seminars at Morph Academy.</p>
+</div>
+<div class="col-md-3  p-0">
+   <img src="assets/image/moprh-events3.jpg" class="red-hovor">
+   <p class="color-black">Diwali Competition at Morph Academy.</p>
+</div>
+
+      </div>
+      <div class="row">
+         <div class="col-md-3  p-0">
+            <img src="assets/image/moprh-events4.jpg" class="red-hovor">
+            <p class="color-red text-white">Practical Learning and Seminars at Morph Academy. </p>
+         </div>
+         <div class="col-md-3 p-0">
+            <img src="assets/image/moprh-events5.jpg" class="red-hovor">
+            <p class="color-black">Glipmse of Farewell party at Morph Academy.</p>
+         </div>
+         <div class="col-md-3  p-0">
+            <img src="assets/image/moprh-events6.jpg" class="red-hovor">
+            <p class="color-red text-white">Fashion Show held at Morph Academy.</p>
+         </div>
+         <div class="col-md-3  p-0">
+            <img src="assets/image/moprh-events7.jpg" class="red-hovor">
+            <p class="color-black">fashion Competition at Morph Academy.</p>
+         </div>
+         
+               </div>
+</div>
+</div>
+
+    
+
+     
+      <!-- form section -->
+      <section class="w-100 float-left form-main-con padding-top padding-bottom" id="Contact">
+         <div class="container">
+            <div class="form-main-inner-con position-relative">
+               <div class="generic-title text-center">
+                  <h6>Get in Touch</h6>
+                  <h2 class="mb-0">Any Questions? Feel Free<br>
+                     to Contact
+                  </h2>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4 order-lg-0 order-2">
+                     <div class="contact-information position-relative wow slideInLeft">
+                        <ul class="list-unstyled">
+                           <li>
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/location-icon.png" alt="location-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Address:</h5>
+                                 <p class="mb-0">SCO 64-65, 4th floor, Sector 34 A, Chandigarh
+                                 </p>
+                              </div>
+                           </li>
+                           <li>
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/message-icon.png" alt="message-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Email:</h5>
+                                 <p class="mb-0">info@bfashionacademy.com</p>
+                                 <p class="mb-0">www.bfashionacademy.com</p>
+                              </div>
+                           </li>
+                           <li class="mb-0">
+                              <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                 <img src="assets/image/phone-icon.png" alt="phone-icon" class="img-fluid">
+                              </figure>
+                              <div class="contact-information-content">
+                                 <h5>Phone:</h5>
+                                 <p class="mb-0">
+                                    +919815006369</p>
+
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-8">
+                     <form action="form/form/contact.php" method="post"class="contact-form wow slideInRight text-lg-left text-center">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 ">
+                              <div class="form-group mb-0">
+                                 <input type="text" placeholder="Name" name="name" id="name">
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 ">
+                              <div class="form-group mb-0">
+                                 <input type="email" placeholder="Email" name="email">
+                                 <small id="emailHelp" class="form-text text-muted"></small>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">
+                                 <input type="tel" placeholder="Phone" name="phone">
+                              </div>
+                           </div>
+                           <div class="col-lg-6 col-md-6">
+                              <div class="form-group mb-0">
+                                 <input type="text" placeholder="Subject" name="subject">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-12">
+                              <div class=" form-group mb-0">
+                                 <textarea placeholder="Message" rows="3" name="comments" id="comments"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <button type="submit" class="appointment-btn">Submit</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- form section -->
+      <!-- weight footer section -->
+      <div class="w-100 float-left weight-footer-con position-relative">
+         <div class="container">
+            <div class="weight-footer-content text-center wow fadeInUp">
+               <figure class="">
+                  <img src="assets/image/logo-morph.png" alt="footer-logo" class="footerlogo">
+               </figure>
+               <div class="footer-navbar">
+                  <ul class="list-unstyled">
+                     <li class="d-inline-block border-left-0 pl-0"><a href="#home">Home</a></li>
+                     <li class="d-inline-block"><a href="#about-con">About</a></li>
+                     <li class="d-inline-block"><a href="#Courses">Courses</a></li>
+                     <li class="d-inline-block"><a href="#Events">Events</a></li>
+                     <li class="d-inline-block"><a href="#Testimonials">
+                        Testimonials</a></li>
+                     <li class="d-inline-block pr-0"><a href="#Contact">Contact</a></li>
+                  </ul>
+               </div>
+               <div class="footer-social-icon">
+                  <ul class="mb-0">
+                     <li class="d-inline-block">
+                        <a href="https://www.behance.net/"><i
+                              class="fab fa-behance d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                     <li class="d-inline-block">
+                        <a href="https://dribbble.com/"><i
+                              class="fab fa-dribbble d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                     <li class="d-inline-block">
+                        <a href="https://www.linkedin.com/"><i
+                              class="fab fa-linkedin-in d-flex align-items-center justify-content-center"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="copy-right-content text-center">
+               <p class="mb-0">Copyright 2022  Morph Academy | All Rights Reserved.</p>
+            </div>
+         </div>
+      </div>
+      <a id="button"></a>
+    
+    
+    
+    
+      
+    
+     
+     
+      </div>
+      <!-- weight footer section -->
+      <script src="assets/js/wow.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <script src="assets/js/jquery-3.6.0.min.js"> </script>
+      <script src="assets/js/popper.min.js"> </script>
+      <script src="assets/js/bootstrap.min.js"> </script>
+      <script src="assets/js/custom-script.js"> </script>
+      <script src="assets/js/slick.js"></script>
+      <script>
+         filterSelection("all")
+         function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+               w3RemoveClass(x[i], "show");
+               if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+         }
+
+         function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+               if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+         }
+
+         function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+               while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);
+               }
+            }
+            element.className = arr1.join(" ");
+         }
+
+         // Add active class to the current button (highlight it)
+         var btnContainer = document.getElementById("myBtnContainer");
+         var btns = btnContainer.getElementsByClassName("btn");
+         for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+               var current = document.getElementsByClassName("active");
+               current[0].className = current[0].className.replace(" active", "");
+               this.className += " active";
+            });
+         }
+      </script>
+      <script>
+         var btn = $('#button');
+
+         $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+               btn.addClass('show');
+            } else {
+               btn.removeClass('show');
+            }
+         });
+
+         btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+         });
+
+      </script>
+      <script>
+         $(window).scroll(function () {
+
+            if ($(window).scrollTop() >= 113) {
+
+               $('header').addClass('fixed-header');
+               $('.banner-main-con').addClass('banner-main-con2');
+
+            }
+
+            else {
+
+               $('header').removeClass('fixed-header');
+               $('.banner-main-con').removeClass('banner-main-con2');
+
+            }
+
+         });
+
+      </script>
+      <script>
+         document.querySelectorAll('.nav-item a').forEach(function (link, index) {
+
+            link.addEventListener('click', function () {
+
+               if (this.classList.contains('is-active')) {
+
+                  this.classList.remove('is-active');
+
+               } else {
+
+                  const activeLink = document.querySelector('a.is-active'); // **
+
+                  if (activeLink) {                                         // **
+
+                     activeLink.classList.remove('is-active');             // **
+
+                  }                                                         // **
+
+                  this.classList.add('is-active');
+
+               }
+
+            });
+
+         });
+
+         document.querySelectorAll('#myBtnContainer button').forEach(function (link, index) {
+
+            link.addEventListener('click', function () {
+
+               if (this.classList.contains('active_button')) {
+
+                  this.classList.remove('active_button');
+
+               } else {
+
+                  const activeLink = document.querySelector('#myBtnContainer button.active_button'); // **
+
+                  if (activeLink) {                                         // **
+
+                     activeLink.classList.remove('active_button');             // **
+
+                  }                                                         // **
+
+                  this.classList.add('active_button');
+
+               }
+
+            });
+
+         });
+      </script>
+      <script>
+         function downloadImage() {
+            source = 'assets/image/cv-img.png';
+            const fileName = 'test-image.png';
+            var el = document.createElement("a");
+            el.setAttribute("href", source);
+            el.setAttribute("download", fileName);
+            document.body.appendChild(el);
+            el.click();
+            el.remove();
+         }
+
+
+
+         $('.testimonial').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+
+      </script>
+      <script>
+         function downloadImage() {
+            source = 'assets/image/cv-img.png';
+            const fileName = 'test-image.png';
+            var el = document.createElement("a");
+            el.setAttribute("href", source);
+            el.setAttribute("download", fileName);
+            document.body.appendChild(el);
+            el.click();
+            el.remove();
+         }
+
+
+
+         $('.testimonial').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+
+
+
+$('#campaign_form').submit(function(){
+        
+     var  name = $('#name').val();
+     var  email = $('#email').val();
+     var  phone = $('#phone_no').val();
+      var  city = $('#city').val();
+     var  state = $('#state').val();
+     
+     $.ajax({
+         url: "form/form/contact.php",
+         type:"post",
+         dataType:"json",
+         data: {
+             name: name,email:email,phone:phone,city:city,state:state
+         },
+         success:function(res){
+             $("#msg").html('<div class="alert alert-success">'+res+'</div>');
+             $('#campaign_form').reset();
+             
+         }
+     });
+    
+   return false;  
+});
+      </script>
+
+
+      <script>
+         var video = document.getElementById("myVideo");
+         var btn = document.getElementById("myBtn");
+         
+         function myFunction() {
+           if (video.paused) {
+             video.play();
+             btn.innerHTML = "Pause";
+           } else {
+             video.pause();
+             btn.innerHTML = "Play";
+           }
+         }
+         </script>
+
+      <div class="sticky-social-icon">
+         <ul>
+             <li><a href="https://web.whatsapp.com/send?l=en&amp;phone=+919815006369&amp;text=Hello Morph Academy, 
+     Please help me out, My Query is.." target="_blank" aria-label=" whatsapp" data-microtip-position="left" role="tooltip"><i class="fa-brands fa-whatsapp"></i></a></li>
+           <li><a href="tel:+9815006369" target="_blank"  aria-label=" phone" data-microtip-position="left" role="tooltip"><i class="fa fa-phone"></i></a></li>
+           <li><a href="https://www.facebook.com/MorphAcademyIn" target="_blank" aria-label=" facebbok" data-microtip-position="left" role="tooltip"><i class="fa-brands fa-facebook-f"></i></a></li>
+		<li><a href="https://www.instagram.com/Morphacademy34/" target="_blank" aria-label=" instagram" data-microtip-position="left" role="tooltip"><i class="fa-brands fa-instagram"></i></a></li>
+           
+         </ul>
+        
+     </div>
+
+
+</body>
+
+</html>
